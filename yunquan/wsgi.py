@@ -15,4 +15,3 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "yunquan.settings")
 
 application = get_wsgi_application()
 
-#测试用
