@@ -16,6 +16,10 @@
       <sourceFolder url="file://$MODULE_DIR$/apps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extra_apps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extra_apps/xadmin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/img" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/news" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/img/news" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/collect" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (djangostart)" jdkType="Python SDK" />
