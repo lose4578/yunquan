@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'user_info',
     'collect',
     'news',
 ]
@@ -81,10 +82,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'lose4578',
-        'USER':"lose4578",
-        'PASSWORD':"lose4578",
-        'HOST':"db4free.net",
-        'PORT':'3307'
+        'USER': "lose4578",
+        'PASSWORD': "lose4578",
+        'HOST': "db4free.net",
+        'PORT': '3307'
     }
 }
 
