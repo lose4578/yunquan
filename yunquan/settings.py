@@ -80,11 +80,10 @@ WSGI_APPLICATION = 'yunquan.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lose4578',
-        'USER':"lose4578",
-        'PASSWORD':"lose4578",
-        'HOST':"db4free.net",
-        'PORT':'3307'
+        'NAME': 'ahahahaha',
+        'USER':"root",
+        'PASSWORD':"123456",
+        'HOST':"127.0.0.1"
     }
 }
 
