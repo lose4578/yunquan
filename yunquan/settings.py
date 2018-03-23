@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'yunquan.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'lose4578',
+        'USER':"lose4578",
+        'PASSWORD':"lose4578",
+        'HOST':"db4free.net",
+        'PORT':'3307'
     }
 }
 
@@ -122,3 +126,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/static/'
