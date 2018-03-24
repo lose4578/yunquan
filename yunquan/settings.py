@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'user_info',
+    'moments'
 ]
 
 MIDDLEWARE_CLASSES = [
