@@ -8,7 +8,7 @@ from django.db import models
 
 
 class News(models.Model):
-    news_id = models.IntegerField(default=0, null=False,verbose_name=u'新闻id')
+    news_id = models.IntegerField(null=False,verbose_name=u'新闻id')
     news_user = models.ForeignKey(User, null=False,verbose_name=u'用户')
     news_name = models.CharField(max_length=30,null=False, verbose_name=u'新闻标题')
     news_text = models.TextField(verbose_name=u'新闻内容（文字）')
