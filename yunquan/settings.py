@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'collect',
     'news',
     'user_info',
+    'moments'
 ]
 
 MIDDLEWARE_CLASSES = [
