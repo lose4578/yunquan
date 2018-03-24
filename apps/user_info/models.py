@@ -6,8 +6,9 @@ from django.db import models
 from collect.models import Collect
 # Create your models here.
 
+
 class UserMessage(models.Model):
-    user_id = models.IntegerField(max_length=50,primary_key=True, default="", verbose_name=u"主键")
+    user_id = models.IntegerField(primary_key=True, default="", verbose_name=u"主键")
     user_name = models.CharField(max_length=20, default="", verbose_name=u"用户名")
     user_email = models.EmailField(verbose_name=u"邮箱")
     user_address = models.CharField(max_length=100, verbose_name=u"联系地址")
