@@ -81,10 +81,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'lose4578',
-        'USER':"lose4578",
-        'PASSWORD':"lose4578",
-        'HOST':"db4free.net",
-        'PORT':'3307'
+        'USER': "lose4578",
+        'PASSWORD': "lose4578",
+        'HOST': "db4free.net",
+        'PORT': '3307',
     }
 }
 
@@ -127,3 +127,4 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '/static/'
+
