@@ -4,6 +4,8 @@ from datetime import datetime
 
 from user_info.models import UserMessage
 from django.db import models
+
+
 # Create your models here.
 
 
@@ -14,7 +16,7 @@ class News(models.Model):
     news_text = models.TextField(null=True,verbose_name=u'新闻内容（文字）')
     news_img = models.ImageField(null=True,upload_to='image/%Y/%m', default=u'image/default.png', max_length=100)
     news_add_time = models.DateTimeField(default=datetime.now)
-    
+
     class Meta:
         verbose_name = "新闻"
         verbose_name_plural = verbose_name

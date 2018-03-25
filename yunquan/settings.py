@@ -16,6 +16,7 @@ import sys
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -40,10 +41,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'collect',
     'news',
+<<<<<<< Updated upstream
     'xadmin',
     'crispy_forms',
     'user_info',
     'moments',
+=======
+    'user_info'
+>>>>>>> Stashed changes
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -85,10 +90,17 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'lose4578',
+<<<<<<< Updated upstream
         'USER': "lose4578",
         'PASSWORD': "lose4578",
         'HOST': "db4free.net",
         'PORT': '3307',
+=======
+        'USER':"lose4578",
+        'PASSWORD':"lose4578",
+        'HOST':"db4free.net",
+        'PORT':'3307'
+>>>>>>> Stashed changes
     }
 }
 

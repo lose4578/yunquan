@@ -17,8 +17,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 import xadmin
+from user_info.views import login
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
+    url('^login/$', login, name='login')
 ]
+
+
