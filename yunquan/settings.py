@@ -41,14 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'collect',
     'news',
-<<<<<<< Updated upstream
     'xadmin',
     'crispy_forms',
     'user_info',
     'moments',
-=======
     'user_info'
->>>>>>> Stashed changes
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -90,17 +87,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'lose4578',
-<<<<<<< Updated upstream
         'USER': "lose4578",
         'PASSWORD': "lose4578",
         'HOST': "db4free.net",
-        'PORT': '3307',
-=======
-        'USER':"lose4578",
-        'PASSWORD':"lose4578",
-        'HOST':"db4free.net",
-        'PORT':'3307'
->>>>>>> Stashed changes
+        'PORT': 3307
     }
 }
 
