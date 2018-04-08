@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'news',
     'xadmin',
     'crispy_forms',
-    'user_info',
     'moments',
     'user_info'
 ]
