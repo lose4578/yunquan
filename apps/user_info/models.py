@@ -23,3 +23,7 @@ class UserMessage(models.Model):
     class Meta:
         verbose_name = u"个人信息"
         verbose_name_plural = verbose_name
+
+
+
+

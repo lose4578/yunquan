@@ -5,3 +5,5 @@ class CollectAdmin(object):
     pass
 
 xadmin.site.register(Collect,CollectAdmin)
+
+
