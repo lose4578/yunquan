@@ -16,13 +16,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from collect.views import AddCollect
 import xadmin
-from user_info.views import login
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
-    url('^login/$', login, name='login')
+    url(r'^collect/', AddCollect.as_view()),
 ]
 
 
