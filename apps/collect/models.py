@@ -18,4 +18,4 @@ class Collect(models.Model):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.collect_content_id
+        return str(self.collect_content_id)
