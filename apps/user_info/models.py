@@ -13,7 +13,7 @@ class UserMessage(models.Model):
     user_email = models.EmailField(verbose_name=u"邮箱")
     user_address = models.CharField(max_length=100, verbose_name=u"联系地址")
     user_birday = models.DateField(verbose_name=u'生日', null=True, blank=True)
-    user_gender = models.CharField(max_length=10, choices=(("male", u'男'), ("female", u'女')), default='female')
+    user_gender = models.CharField(max_length=10, choices=(("male", u'男'), ("female", u'女')), default='female', verbose_name=u"性别")
     user_mobile = models.CharField(max_length=11, null=True, blank=True)
     user_img = models.ImageField(upload_to='image/%Y/%m', default=u"image/default.png", max_length=100)
     user_add_time = models.DateTimeField(default=datetime.now, verbose_name=u'添加时间')
