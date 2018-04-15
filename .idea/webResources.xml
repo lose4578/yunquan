@@ -6,6 +6,8 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/apps" />
+            <path value="file://$PROJECT_DIR$/extra_apps" />
+            <path value="file://$PROJECT_DIR$/extra_apps/xadmin" />
           </resourceRoots>
         </entryData>
       </entry>
