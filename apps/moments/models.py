@@ -14,3 +14,4 @@ class Moments(models.Model):
 
     class Meta:
         verbose_name = u"用户说说信息"
+        verbose_name_plural = verbose_name
