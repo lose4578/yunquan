@@ -1,6 +1,11 @@
-from django.shortcuts import render
+# _*_ coding:utf-8 _*_
+__author__ = 'Traly'
+__date__ = '2018/4/14 12:41'
+
 from aip import AipNlp
-# Create your views here.
+import json
+import re
+
 
 class BaiDuSDK():
     def Text_Categories(self, _title, _content):
@@ -25,10 +30,29 @@ class BaiDuSDK():
             categories['lv2'] = False
 
 
+def format(name, list):
+    bigdict = {}
+    for i in list:
+        test = re.sub('\'', '\"', str(i))
+        dict = json.loads(test)
+        currentname = dict[name]
+        bigdict[currentname] = test
+    return bigdict
 
-
-
-
-
-
+    # 示例：
+    # views.py
+    #
+    # all_orgs = all_orgs.filter(city_id=int(city_id))
+    # a = list(all_orgs)
+    # print(format(a))
+    #
+    # models.py
+    #
+    # def __str__(self):
+    #     a = {'desc': self.desc, 'name': self.name}
+    #     return str(a)
+    #
+    # 功能：将filter得到的数据库中的多条数据变为字典格式（嵌套字典） 参数list为filter
+    # list化的数据
+    # 参数name为每条数据的标记（如id, name)
 

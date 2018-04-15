@@ -3,6 +3,7 @@ from django.db import models
 from datetime import datetime
 # Create your models here.
 
+
 class Moments(models.Model):
     moments_id = models.IntegerField(null=False, verbose_name=u'说说id')
     moments_user = models.CharField(null=False, max_length=50, verbose_name=u'用户')
@@ -14,3 +15,6 @@ class Moments(models.Model):
 
     class Meta:
         verbose_name = u"用户说说信息"
+        
+
+

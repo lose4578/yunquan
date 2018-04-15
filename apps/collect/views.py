@@ -17,6 +17,15 @@ from django.http import JsonResponse
 #             return serializers.serialize("python", object, ensure_ascii=False)
 #         except:
 #             return simplejson.JSONEncoder.default(self, object)
+def ajax_dict(request):
+    ceshi = request.GET
+    ceshi2 = request.POST
+    print(ceshi)
+    print(ceshi2)
+    # collect_content_id = request.POST.get('secondParam')
+    # collect_user_id = request.POST.get('firstParam')
+    name_dict = {'lala': 'ksksks'}
+    return JsonResponse(name_dict)
 
 
 class AddCollect(View):
@@ -25,7 +34,7 @@ class AddCollect(View):
         collect_user_id = request.POST.get('collect_user_id', '')
         result = Collect.objects.get_or_create(collect_content_id=collect_content_id, collect_user_id=collect_user_id)
 
-        if result[2]:
+        if result[1]:
             result = {'result': '收藏成功'}
             return JsonResponse(result)
             # result = simplejson.dumps(result, cls=QuerySetEncoder)
@@ -33,8 +42,6 @@ class AddCollect(View):
         else:
             result = {'result': '文章已收藏'}
             return JsonResponse(result)
-            # result = simplejson.dumps(result, cls=QuerySetEncoder)
-            # return HttpResponse(result)
 
 
 class FindCollect(View):
@@ -49,8 +56,6 @@ class FindCollect(View):
         else:
             result = {'result': '内容不存在或已被删除'}
             return JsonResponse(result)
-            # result = simplejson.dumps(result, cls=QuerySetEncoder)
-            # return HttpResponse(result)
 
 
 class ReturnCollect(View):
