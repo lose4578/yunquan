@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'DjangoUeditor',
     'django_filters',
     'collect',
     'news',
@@ -94,6 +95,15 @@ DATABASES = {
         'PORT': 3307
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'test1',
+#         'USER': "root",
+#         'PASSWORD': "1234",
+#         'HOST': "127.0.0.1",
+#     }
+# }
 
 
 # Password validation
