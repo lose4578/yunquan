@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b697a7c-7017-428c-922d-a4791756208c" name="Default" comment="">
+<<<<<<< Updated upstream
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/LocalData.json" />
       <change beforePath="" afterPath="$PROJECT_DIR$/apps/friends_list/__init__.py" />
@@ -19,6 +20,13 @@
       <change beforePath="$PROJECT_DIR$/apps/moments/models.py" afterPath="$PROJECT_DIR$/apps/moments/models.py" />
       <change beforePath="$PROJECT_DIR$/apps/news/views.py" afterPath="$PROJECT_DIR$/apps/news/views.py" />
       <change beforePath="$PROJECT_DIR$/yunquan/settings.py" afterPath="$PROJECT_DIR$/yunquan/settings.py" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/yunquan.iml" afterPath="$PROJECT_DIR$/.idea/yunquan.iml" />
+      <change beforePath="$PROJECT_DIR$/apps/news/models.py" afterPath="$PROJECT_DIR$/apps/news/models.py" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/yunquan/urls.py" afterPath="$PROJECT_DIR$/yunquan/urls.py" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -30,14 +38,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/yunquan$settings.coverage" NAME="settings Coverage Results" MODIFIED="1521805961100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yunquan" />
     <SUITE FILE_PATH="coverage/yunquan$Test__user_info.coverage" NAME="Test: user_info Coverage Results" MODIFIED="1521807550186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/yunquan$manage.coverage" NAME="manage Coverage Results" MODIFIED="1523769965065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Mxonline2-master" />
+    <SUITE FILE_PATH="coverage/yunquan$settings.coverage" NAME="settings Coverage Results" MODIFIED="1521805961100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yunquan" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file leaf-file-name="function.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/function.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,22 +79,49 @@
               <folding>
                 <element signature="e#74#96#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Mxonline2-master/Mxonline2/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="168" column="21" lean-forward="false" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/operation/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3020">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/news/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+=======
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/courses/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+>>>>>>> Stashed changes
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#18#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yunquan/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +129,21 @@
               <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#696#728#0" expanded="true" />
+=======
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/news/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/collect/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,6 +152,34 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunquan/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunquan/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-273">
+              <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Mxonline2-master/Mxonline2/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="41" />
+              <folding />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -95,6 +193,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>medi</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -102,7 +205,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/user_info/models.py" />
-        <option value="$PROJECT_DIR$/apps/news/models.py" />
         <option value="$PROJECT_DIR$/apps/news/adminx.py" />
         <option value="$PROJECT_DIR$/apps/user_info/adminx.py" />
         <option value="$PROJECT_DIR$/apps/collect/__init__.py" />
@@ -119,9 +221,16 @@
         <option value="$PROJECT_DIR$/apps/function/views.py" />
         <option value="$PROJECT_DIR$/apps/news/views.py" />
         <option value="$PROJECT_DIR$/yunquan/settings.py" />
-        <option value="$PROJECT_DIR$/yunquan/urls.py" />
         <option value="$PROJECT_DIR$/apps/collect/views.py" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/function.py" />
+=======
+        <option value="$PROJECT_DIR$/yunquan/__init__.py" />
+        <option value="$PROJECT_DIR$/../Mxonline2-master/Mxonline2/__init__.py" />
+        <option value="$PROJECT_DIR$/../Mxonline2-master/Mxonline2/settings.py" />
+        <option value="$PROJECT_DIR$/apps/news/models.py" />
+        <option value="$PROJECT_DIR$/yunquan/urls.py" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -164,8 +273,112 @@
             <path>
               <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="collect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="collect" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="moments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="user_info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+              <item name="yunquan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoUeditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Mxonline2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunquan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
@@ -177,7 +390,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="E:/QQ下载/organization" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mxonline2-master" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+>>>>>>> Stashed changes
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -220,6 +438,25 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
     </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Mxonline2-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mxonline2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Mxonline2-master/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,6 +475,29 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mxonline" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Mxonline2.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Obama\testvir\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mxonline2" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
     </configuration>
     <configuration name="yunquan" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,15 +522,18 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Django server.yunquan" />
-      <item index="1" class="java.lang.String" itemvalue="Django tests.Test: user_info" />
-      <item index="2" class="java.lang.String" itemvalue="Python.settings" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.mxonline" />
+      <item index="2" class="java.lang.String" itemvalue="Django tests.Test: user_info" />
+      <item index="3" class="java.lang.String" itemvalue="Python.settings" />
+      <item index="4" class="java.lang.String" itemvalue="Python.manage" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: user_info" />
-        <item index="1" class="java.lang.String" itemvalue="Python.settings" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="1" class="java.lang.String" itemvalue="Django tests.Test: user_info" />
+        <item index="2" class="java.lang.String" itemvalue="Python.settings" />
       </list>
     </recent_temporary>
   </component>
@@ -336,9 +599,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
+<<<<<<< Updated upstream
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5021322" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43960828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -357,6 +620,27 @@
       <window_info id="manage.py@yunquan" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.390642" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@Mxonline2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5021322" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19206008" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14914162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@yunquan" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3873776" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -399,6 +683,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< Updated upstream
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/collect/views.py</url>
@@ -406,6 +691,8 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
+=======
+>>>>>>> Stashed changes
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -418,64 +705,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/apps/user_info/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/collect/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/news/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_info/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/collect/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunquan/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="e#696#728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunquan/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#306#315#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/apps/news/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -501,9 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#306#315#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -520,9 +753,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding>
-            <element signature="e#306#315#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,13 +793,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_info/views.py">
+    <entry file="file://$USER_HOME$/Envs/mxonline/Lib/site-packages/django/apps/registry.py" />
+    <entry file="file://$PROJECT_DIR$/apps/collect/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_info/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_info/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+=======
+        <state relative-caret-position="128">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/mxonline/Lib/site-packages/django/db/models/manager.py" />
+    <entry file="file://$PROJECT_DIR$/apps/collect/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/moments/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="7" column="82" lean-forward="false" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -578,18 +843,186 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< Updated upstream
+          <folding>
+            <element signature="e#306#315#0" expanded="false" />
+          </folding>
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Envs/mxonline/Lib/site-packages/django/apps/registry.py">
+    <entry file="file://$PROJECT_DIR$/apps/news/views.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/collect/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="351">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+=======
+        <state relative-caret-position="224">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/testvir/Lib/site-packages/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/testvir/Lib/site-packages/django/apps/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#306#315#0" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="3072">
+          <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/collect/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="78">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+=======
+        <state relative-caret-position="736">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_info/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="333">
+          <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <element signature="e#306#315#0" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="96">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/collect/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunquan/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/Mxonline2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/extra_apps/DjangoUeditor/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="52">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+=======
+        <state relative-caret-position="256">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/testvir/Lib/site-packages/captcha/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+=======
+        <state relative-caret-position="192">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e459e5e-6df9-401f-9365-a0a497b1f848/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/organization/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/organization/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="167">
           <caret line="118" column="14" lean-forward="true" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/collect/forms.py">
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/organization/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="182">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
@@ -600,38 +1033,74 @@
         <state relative-caret-position="156">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/mxonline/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+=======
+        <state relative-caret-position="-588">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/media/courses/ueditor/avatar_20180115083549_770.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+>>>>>>> Stashed changes
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/Mxonline2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="168" column="21" lean-forward="false" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/apps/collect/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#18#57#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/news/models.py">
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/apps/operation/models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="78">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+=======
+        <state relative-caret-position="-3020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/collect/apps.py">
+    <entry file="file://$PROJECT_DIR$/yunquan/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="-108">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/apps/moments/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -749,12 +1218,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/yunquan/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mxonline2-master/Mxonline2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/apps/news/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -775,6 +1267,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
   </component>
   <component name="masterDetails">
     <states>

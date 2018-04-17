@@ -14,7 +14,7 @@ Including another URLconf
     2. Import the include() function: from django.conf.urls import url, include
     3. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
-from django.conf.urls import url
+from django.conf.urls import url,include
 from django.contrib import admin
 from collect.views import AddCollect, ajax_dict
 import xadmin
@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^collect/', ajax_dict),
+    url(r'^ueditor/',include('DjangoUeditor.urls' )),
 ]
 
 
