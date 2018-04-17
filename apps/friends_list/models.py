@@ -12,4 +12,6 @@ class UserFriendsList(models.Model):
     moments_add_time = models.DateTimeField(default=datetime.now)
 
     class Meta:
-        verbose_name = u"用户列表"
+        verbose_name = u"好友列表"
+        verbose_name_plural = verbose_name
+
