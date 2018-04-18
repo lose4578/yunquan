@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'DjangoUeditor',
+    'ckeditor',
+    'ckeditor_uploader',
     'django_filters',
     'collect',
     'news',
@@ -142,6 +143,22 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-STATIC_URL = '/static/'
-STATIC_ROOT = '/static/'
 
+
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# 这个配置，有很多样式，可以自己去官网找样式。
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+        # 添加按钮在这里
+        'toolbar_Custom': [
+            ['Blockquote', 'CodeSnippet'],
+
+        ],
+    },
+}
+CKEDITOR_UPLOAD_PATH = "/uploads/"
+CKEDITOR_JQUERY_URL = 'https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'

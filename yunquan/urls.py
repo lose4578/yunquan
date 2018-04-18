@@ -23,7 +23,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^collect/', ajax_dict),
-    url(r'^ueditor/',include('DjangoUeditor.urls' )),
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
 ]
 
 

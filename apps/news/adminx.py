@@ -7,7 +7,4 @@ class NewsAdmin(object):
     list_filter=['news_name','news_id','news_user']
 
 
-class CourseAdmin(object):
-    style_fields = {"news_text": "ueditor"}
-
 xadmin.site.register(News,NewsAdmin)
