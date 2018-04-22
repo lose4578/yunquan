@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Mxonline2-master/.idea/Mxonline2.iml" filepath="$PROJECT_DIR$/../Mxonline2-master/.idea/Mxonline2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../untitled/.idea/untitled.iml" filepath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/yunquan.iml" filepath="$PROJECT_DIR$/.idea/yunquan.iml" />
     </modules>
   </component>
