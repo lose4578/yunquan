@@ -26,10 +26,10 @@
       <sourceFolder url="file://$MODULE_DIR$/apps/function" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (Mxonline) (1)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (yunquan)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="untitled" />
-    <orderEntry type="module" module-name="Mxonline2" />
+    <orderEntry type="module" module-name="yun" />
+    <orderEntry type="module" module-name="yun" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
