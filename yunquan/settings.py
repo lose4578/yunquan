@@ -97,6 +97,16 @@ DATABASES = {
         'PORT': 3307
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 't1',
+#         'USER': "root",
+#         'PASSWORD': "1234",
+#         'HOST': "127.0.0.1",
+#         'PORT': 3306
+#     }
+# }
 
 
 # Password validation
@@ -141,19 +151,15 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-# 这个配置，有很多样式，可以自己去官网找样式。
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'full',
-        # 添加按钮在这里
         'toolbar_Custom': [
             ['Blockquote', 'CodeSnippet'],
-
         ],
     },
 }
 CKEDITOR_UPLOAD_PATH = "/uploads/"
 CKEDITOR_JQUERY_URL = 'https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'
 
-AUTH_USER_MODEL = "user_info.UserMessage"
 
