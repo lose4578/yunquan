@@ -18,12 +18,14 @@ from django.conf.urls import url,include
 from django.contrib import admin
 from collect.views import AddCollect, ajax_dict
 import xadmin
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^collect/add/', AddCollect),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
