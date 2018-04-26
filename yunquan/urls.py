@@ -22,7 +22,7 @@ import xadmin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
-    url(r'^collect/', ajax_dict),
+    url(r'^collect/add/', AddCollect),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
 ]
 

@@ -12,7 +12,7 @@ from user_info.models import UserMessage
 
 
 class Collect(models.Model):
-    collect_user_id = models.ForeignKey(UserMessage, verbose_name='用户',on_delete=models.CASCADE)  # 一条数据是一个内容 ，同一个用户可有多条
+    collect_user_id = models.ForeignKey(UserMessage, null=True, verbose_name='用户', on_delete=models.CASCADE)   # 一条数据是一个内容 ，同一个用户可有多条
     collect_id = models.IntegerField(default=0, verbose_name='数据id')
     collect_content_id = models.IntegerField(default=0, verbose_name=u'内容id')
     collect_type = models.IntegerField(choices=((1, "新闻"), (2, "说说")), default=1, verbose_name='收藏类型')
