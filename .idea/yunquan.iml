@@ -25,6 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/apps/moments" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/friends_list" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/function" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/extra_apps" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (test111)" jdkType="Python SDK" />
