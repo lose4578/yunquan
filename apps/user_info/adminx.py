@@ -19,9 +19,9 @@ class GlobalSettings(object):
     menu_style='accordion'
 
 class VerifyRecordAdmin(object):
-    list_display = ['code', 'email_or_mobile', 'send_type', 'send_time']      #显示列表
-    search_fields = ['code', 'email_or_mobile', 'send_type']      #搜索
-    list_filter = ['code', 'email_or_mobile', 'send_type', 'send_time']
+    list_display = ['code', 'email', 'send_type', 'send_time']      #显示列表
+    search_fields = ['code', 'email', 'send_type']      #搜索
+    list_filter = ['code', 'email', 'send_type', 'send_time']
 
 
 class BannerAdmin(object):
