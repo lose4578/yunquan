@@ -30,8 +30,8 @@ def ajax_dict(request):
 
 class AddCollect(View):
     def post(self, request):
-        collect_content_id = request.POST.get('collect_content_id', '')
-        collect_user_id = request.POST.get('collect_user_id', '')
+        collect_content_id = request.POST.get('collect_content_id')
+        collect_user_id = request.POST.get('collect_user_id')
         result = Collect.objects.get_or_create(collect_content_id=collect_content_id, collect_user_id=collect_user_id)
 
         if result[1]:

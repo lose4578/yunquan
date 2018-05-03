@@ -5,16 +5,14 @@ from datetime import datetime
 from django.db import models
 from django.contrib.auth.models import AbstractUser  # 继承原有字段
 
-
-
 # Create your models here.
 
 
 class UserMessage(AbstractUser):
-
+    user_id = models.IntegerField(default=0,verbose_name='用户ID', null=False)
     user_birday = models.DateField(verbose_name=u'生日', null=True, blank=True)
     user_gender = models.CharField(max_length=10, choices=(("male", u'男'), ("female", u'女')), default='female')
-    user_address = models.CharField(max_length=100, verbose_name=u"联系地址",null=True)
+    user_address = models.CharField(max_length=100, verbose_name=u"联系地址", null=True)
     user_mobile = models.CharField(max_length=11, null=True, blank=True)
     user_img = models.ImageField(upload_to='image/%Y/%m', default=u"image/default.png", max_length=100)
     user_iflock = models.IntegerField(default=False, verbose_name='退出是否锁定')
@@ -22,6 +20,7 @@ class UserMessage(AbstractUser):
     class Meta:
         verbose_name = u"个人信息"
         verbose_name_plural = verbose_name
+
 
     def __str__(self):
         return self.username
