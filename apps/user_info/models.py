@@ -9,7 +9,7 @@ from django.contrib.auth.models import AbstractUser  # 继承原有字段
 
 
 class UserMessage(AbstractUser):
-    user_id = models.IntegerField(default=0, verbose_name='用户ID', null=False)
+    user_id = models.IntegerField(default=0,verbose_name='用户ID', null=False)
     user_birday = models.DateField(verbose_name=u'生日', null=True, blank=True)
     user_gender = models.CharField(max_length=10, choices=(("male", u'男'), ("female", u'女')), default='female')
     user_address = models.CharField(max_length=100, verbose_name=u"联系地址", null=True)
@@ -20,6 +20,7 @@ class UserMessage(AbstractUser):
     class Meta:
         verbose_name = u"个人信息"
         verbose_name_plural = verbose_name
+
 
     def __str__(self):
         return self.username
