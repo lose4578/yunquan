@@ -1,5 +1,5 @@
 import xadmin
-from .models import EmailVerifyRecord,Banner
+from .models import VerifyRecord,Banner
 from xadmin.plugins.auth import UserAdmin
 from xadmin import views
 from crispy_forms.layout import Fieldset
@@ -18,7 +18,7 @@ class GlobalSettings(object):
     site_footer='第四组'
     menu_style='accordion'
 
-class EmailVerifyRecordAdmin(object):
+class VerifyRecordAdmin(object):
     list_display = ['code', 'email', 'send_type', 'send_time']      #显示列表
     search_fields = ['code', 'email', 'send_type']      #搜索
     list_filter = ['code', 'email', 'send_type', 'send_time']
@@ -30,7 +30,7 @@ class BannerAdmin(object):
     list_filter = ['title', 'image', 'url', 'index', 'add_time']
 
 
-xadmin.site.register(EmailVerifyRecord, EmailVerifyRecordAdmin)
+xadmin.site.register(VerifyRecord, VerifyRecordAdmin)
 xadmin.site.register(Banner, BannerAdmin)
 xadmin.site.register(views.BaseAdminView,BaseSetting)
 xadmin.site.register(views.CommAdminView,GlobalSettings)

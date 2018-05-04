@@ -28,7 +28,7 @@ def ajax_dict(request):
     return JsonResponse(name_dict)
 
 
-class AddCollect(View):
+class AddCollect():
     def post(self, request):
         collect_content_id = request.POST.get('collect_content_id')
         collect_user_id = request.POST.get('collect_user_id')

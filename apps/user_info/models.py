@@ -25,19 +25,18 @@ class UserMessage(AbstractUser):
     def __str__(self):
         return self.username
 
-
-class EmailVerifyRecord(models.Model):  # 邮箱验证码
+class VerifyRecord(models.Model):  # 验证码
     code = models.CharField(max_length=20, verbose_name='验证码')
-    email = models.EmailField(max_length=50, verbose_name='邮箱')
-    send_type = models.CharField(verbose_name='验证码类型', choices=(("register", '注册'), ('forget', '找回密码')), max_length=10)
+    email_or_mobile = models.CharField(max_length=50, verbose_name='邮箱或手机',default=0)
+    send_type = models.CharField(verbose_name='验证码类型', choices=(("mobileregister", '手机注册'),("emailregister", '邮箱注册'),("mobileforget", '手机找回密码'), ('emailforget', '邮箱找回密码')), max_length=20)
     send_time = models.DateTimeField(verbose_name='发送时间', default=datetime.now)  # now() 程序编译时间 now class实例化时间
 
     class Meta:
-        verbose_name = '邮箱验证码'  # 显示出来的
-        verbose_name_plural = verbose_name  # 不加此句 上面会显示复数形式
+        verbose_name = '验证码'
+        verbose_name_plural = verbose_name
 
     def __str__(self):
-        return '{0}({1})'.format(self.code, self.email)
+        return '{0}({1})'.format(self.code, self.email_or_mobile)
 
 
 class Banner(models.Model):  # 轮播图
