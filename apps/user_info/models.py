@@ -16,7 +16,7 @@ class UserMessage(AbstractUser):
     user_mobile = models.CharField(max_length=11, null=True, blank=True)
     user_img = models.ImageField(upload_to='image/%Y/%m', default=u"image/default.png", max_length=100)
     user_iflock = models.IntegerField(default=False, verbose_name='退出是否锁定')
-    user_sinature = models.CharField(default='', verbose_name='个性签名', max_length=80, null=True)
+    user_signature = models.CharField(default='', verbose_name='个性签名', max_length=80, null=True)
     user_desc = models.CharField(default='', verbose_name='个人描述', max_length=255, null=True)
     user_department = models.CharField(verbose_name='部门', max_length=20, choices=(("JAVA", 'JAVA'), ("Node.js", "Node.js"), ("Python", "Python"), ("Frontend", "前端"), ("others", "其他")),default='', null=True)
 
