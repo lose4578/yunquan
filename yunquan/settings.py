@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/1.9/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
-AUTH_USER_MODEL = "user_info.UserMessage"
 
 import os
 import sys
@@ -29,6 +28,8 @@ SECRET_KEY = '6%d$46jxiy96%j8#b6js&a!^v^+ji+5gvfk^5wygu5%#mrewy1'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
+AUTH_USER_MODEL = "user_info.UserMessage"
 
 
 # Application definition
@@ -162,4 +163,13 @@ CKEDITOR_CONFIGS = {
 CKEDITOR_UPLOAD_PATH = "/uploads/"
 CKEDITOR_JQUERY_URL = 'https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'
 
+AUTHENTICATION_BACKENDS = (
+    'user_info.views.CustomBackend',
+)
 
+EMAIL_HOST = "smtp.qq.com"
+EMAIL_PORT = 25
+EMAIL_HOST_USER = "1625449339@qq.com"
+EMAIL_HOST_PASSWORD = "ypjukhaziumoigfe"
+EMAIL_USE_TLS = True
+EMAIL_FROM = EMAIL_HOST_USER

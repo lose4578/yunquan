@@ -15,15 +15,16 @@ import time
 import json
 import traceback
 import requests
-import smsmessage
-from smsexception import *
+import note.smsmessage as smsmessage
+from note.smsexception import *
+
 
 # 文本短信发送客户端
 class SmsClient():
     def __init__(self):
-        self._userid = 'E102ZI' #发送者帐号
-        self._pwd = 'xUpQ7D' #发送者帐号的密码
-        self._url = 'http://api02.monyun.cn:7901/sms/v2/std/' #请前往您的控制台获取请求域名(IP)或联系梦网客服进行获取
+        self._userid = 'E102ZI'  # 发送者帐号
+        self._pwd = 'xUpQ7D'  # 发送者帐号的密码
+        self._url = 'http://api02.monyun.cn:7901/sms/v2/std/'  # 请前往您的控制台获取请求域名(IP)或联系梦网客服进行获取
 
     @property
     def userid(self):
@@ -37,7 +38,7 @@ class SmsClient():
     def url(self):
         return self._url
 
-    #http post
+    # http post
     def postSmsMessage(self, message):
         fullurl = self.url + message.apiname
         try:
@@ -76,17 +77,18 @@ class SmsClient():
             return message.makeupRet(SmsErrorCode.ERROR_310099)
 
     # 单条发送(短信)
-    def singleSend(self):
+    def singleSend(self, mobile, code):
         message = smsmessage.SmsSingleMessage()
         # 发送者帐号
         message.userid = self.userid
         # 密码
         message.pwd = self.pwd
         # 接收方手机号码
-        message.mobile = '18834198432'
+        message.mobile = mobile
         # 验证码数字<=6位
-        message.content = u'验证码：2333，打死都不要告诉别人哦！'
+        message.content = u'验证码：{}，打死都不要告诉别人哦！'.format(code)
         # 业务类型：最大可支持10个长度的ASCII字符串：字母，数字
+
         message.svrtype = '0123456789'
         # 扩展号：长度不能超过6位，注意通道号+扩展号的总长度不能超过20位，若超出exno无效，如不需要扩展号则不用提交此字段或填空
         message.exno = ''
@@ -138,15 +140,15 @@ class SmsClient():
         exno = '123456'
         custid = 'b3d0a2783d31b21b8573'
         exdata = '0123456789'
-        message.addReciver(mobile, content, svrtype, exno, custid, exdata) #第1位接收者
+        message.addReciver(mobile, content, svrtype, exno, custid, exdata)  # 第1位接收者
 
         mobile = '137xxxxxxxx'
         verificationCode = time.strftime("%H%M%S", time.localtime())
-        content = u'您的验证码为' +  verificationCode + u'，请于1分钟内正确输入，如非本人操作，请忽略此短信。'
-        message.addReciver(mobile, content, svrtype, exno, custid, exdata) #第2位接收者
+        content = u'您的验证码为' + verificationCode + u'，请于1分钟内正确输入，如非本人操作，请忽略此短信。'
+        message.addReciver(mobile, content, svrtype, exno, custid, exdata)  # 第2位接收者
 
         ret = self.postSmsMessage(message)
-        print( 'multiSend:', ret)
+        print('multiSend:', ret)
 
     # 获取上行(短信)
     def getMo(self):
@@ -155,10 +157,10 @@ class SmsClient():
         message.userid = self.userid
         # 密码
         message.pwd = self.pwd
-        message.retsize = 100 # 最大值填200
+        message.retsize = 100  # 最大值填200
 
         ret = self.postSmsMessage(message)
-        print( ret)
+        print(ret)
 
     # 获取状态报告(短信)
     def getRpt(self):
@@ -167,10 +169,10 @@ class SmsClient():
         message.userid = self.userid
         # 密码
         message.pwd = self.pwd
-        message.retsize = 500 # 最大值填500
+        message.retsize = 500  # 最大值填500
 
         ret = self.postSmsMessage(message)
-        print( 'getRpt:', ret)
+        print('getRpt:', ret)
 
     # 查询剩余条数
     def getBalance(self):
@@ -181,7 +183,7 @@ class SmsClient():
         message.pwd = self.pwd
 
         ret = self.postSmsMessage(message)
-        print( 'getBalance:', ret)
+        print('getBalance:', ret)
 
     # 查询剩余金额或条数
     def getRemain(self):
@@ -192,6 +194,4 @@ class SmsClient():
         message.pwd = self.pwd
 
         ret = self.postSmsMessage(message)
-        print( 'getRemain:', ret)
-
-
+        print('getRemain:', ret)
