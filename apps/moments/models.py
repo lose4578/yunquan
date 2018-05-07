@@ -4,6 +4,7 @@ from datetime import datetime
 from user_info.models import UserMessage
 # Create your models here.
 
+
 class Moments(models.Model):
     moments_id = models.IntegerField(null=False, verbose_name=u'说说id')
     moments_user = models.ForeignKey(UserMessage,verbose_name=u'用户')

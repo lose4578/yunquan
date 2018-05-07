@@ -17,7 +17,6 @@ class News(models.Model):
     news_img = models.ImageField(verbose_name="新闻封面",null=True,upload_to='image/%Y/%m', default=u'image/default.png', max_length=100)
     news_add_time = models.DateTimeField(verbose_name="上传时间",default=datetime.now)
 
-
     class Meta:
         verbose_name = "新闻"
         verbose_name_plural = verbose_name
