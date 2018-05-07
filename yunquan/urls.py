@@ -16,24 +16,16 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from django.contrib import admin
-from collect.views import AddCollect, ajax_dict, FindCollect, ReturnCollect
+from collect.views import AddCollect, ajax_dict
 import xadmin
 from django.conf import settings
 from django.conf.urls.static import static
 
-from moments.views import AddMomentsView
-
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
-    url(r'^collect/add/', AddCollect.as_view()),
-    url(r'^collect/find/', FindCollect.as_view()),
-    url(r'^collect/return/', ReturnCollect.as_view()),
-    url(r'^collect/ceshi/', ajax_dict),
+    url(r'^collect/add/', AddCollect),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
-
-    url(r'moments/add/', AddMomentsView.as_view()),
-
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 

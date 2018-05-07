@@ -15,7 +15,7 @@ class News(models.Model):
     news_name = models.CharField(max_length=30, verbose_name=u'新闻标题')
     news_text = RichTextField(verbose_name="新闻内容")
     news_img = models.ImageField(verbose_name="新闻封面",null=True,upload_to='image/%Y/%m', default=u'image/default.png', max_length=100)
-    news_add_time = models.DateTimeField(verbose_name="上传时间",default=datetime.now)
+    news_add_time = models.DateTimeField(verbose_name="上传时间",default = datetime.now)
 
     class Meta:
         verbose_name = "新闻"
