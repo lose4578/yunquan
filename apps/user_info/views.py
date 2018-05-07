@@ -70,7 +70,6 @@ class RegisterView(View):
             else:
                 UserMessage.objects.create(**dict1)
                 send_verify_code(type1, email_or_mobile, type1 + 'register')
-                result = {'result': '已向{}发送注册验证码，请注意查收'.format(email_or_mobile)}
         else:
             result = {'result': '信息错误！'}
 
@@ -185,9 +184,8 @@ class ModifyPwdView(View):
 
 # {'oldpwd':'','pwd1':'','pwd2':''}
 
-# 修改信息
-class ModifyMessageView(View):
-    def get(self, request):
+class PersonalMessageView(View):
+    def post(self, request):
         if request.user.is_authenticated():
             user = request.user
             dict1 = {}
@@ -196,13 +194,26 @@ class ModifyMessageView(View):
             dict1['birday'] = user.user_birday
             dict1['gender'] = user.user_gender
             dict1['mobile'] = user.user_mobile
-            dict1['img'] = str(user.user_img)
             dict1['address'] = user.user_address
             dict1['signature'] = user.user_signature
             dict1['department'] = user.user_department
             dict1['desc'] = user.user_desc
             result = dict1
             return JsonResponse(result)
+# {
+#   "username": "111",
+#   "email": "1625449339@qq.com",
+#   "birday": "1998-10-12",
+#   "gender": "male",
+#   "mobile": "18834198432",
+#   "address": "xxxx",
+#   "signature": "23333",
+#   "department": "Python",
+#   "desc": "啦啦啦"
+# }
+
+# 修改信息
+class ModifyMessageView(View):
 
     def post(self, request):
         modifymessage_form = ModifyMessageForm(request.POST)
@@ -215,7 +226,6 @@ class ModifyMessageView(View):
                 birday = request.POST.get("user_birday", "")
                 gender = request.POST.get("user_gender", "")
                 mobile = request.POST.get("user_mobile", "")
-                img = request.POST.get("user_img", "")
                 desc = request.POST.get("user_desc", "")
                 signature = request.POST.get("user_signature", "")
                 department = request.POST.get("user_department", "")
@@ -225,7 +235,6 @@ class ModifyMessageView(View):
                 user.user_birday = birday
                 user.user_gender = gender
                 user.user_mobile = mobile
-                user.user_img = img
                 user.user_address = address
                 user.user_signature = signature
                 user.user_department = department
@@ -239,7 +248,7 @@ class ModifyMessageView(View):
         return JsonResponse(result)
 
 
-# {'user_address':'','username':'','email':'','user_birday':'','user_gender':'','user_mobile':'','user_img':'','user_desc':'','user_signature':'','user_department':''}
+# {'user_address':'','username':'','email':'','user_birday':'','user_gender':'','user_mobile':'','user_desc':'','user_signature':'','user_department':''}
 
 
 # 注销

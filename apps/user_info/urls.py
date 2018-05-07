@@ -5,7 +5,7 @@ __date__ = '2018/4/4 19:51'
 from django.conf.urls import url
 
 from .views import RegisterView, ForgetPwdView, ModifyMessageView, ModifyPwdView, VerifyView, LoginView, LogoutView, \
-    PersonalCenterView
+    PersonalCenterView,PersonalMessageView
 
 urlpatterns = [
     # 登录
@@ -24,4 +24,7 @@ urlpatterns = [
     url(r'^setting/modifypwd/$', ModifyPwdView.as_view(), name="modifypwd"),
     # 修改信息
     url(r'^personalcenter/modifymessage/$', ModifyMessageView.as_view(), name="modifymessage"),
+    #个人信息
+    url(r'^personalcenter/usermessage/$', PersonalMessageView.as_view(), name="personalmessage"),
+
 ]
