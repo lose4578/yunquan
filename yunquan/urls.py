@@ -20,6 +20,8 @@ from collect.views import AddCollect, ajax_dict
 import xadmin
 from django.conf import settings
 from django.conf.urls.static import static
+from news.views import NewsSearch
+from moments.views import MomentsSearch
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
