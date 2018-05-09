@@ -8,7 +8,7 @@ from user_info.models import UserMessage
 
 class UserFriendsList(models.Model):
     user_id = models.ForeignKey(UserMessage, on_delete=models.deletion.CASCADE, verbose_name='用户ID')
-    user_friends_list = models.IntegerField(null=False, verbose_name=u'好友列表')
+    user_friends_list = models.CharField(max_length=1000,null=False, verbose_name=u'好友列表')
     moments_add_time = models.DateTimeField(default=datetime.now)
 
     class Meta:
