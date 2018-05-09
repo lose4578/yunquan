@@ -103,3 +103,12 @@ class ShowCommentView(View):
             'users': users,
             'comments': comments
         })
+    
+class MomentsSearch(View):
+    def post(self,request):
+        search = request.POST.get('search', '')#接
+        id = request.POST.get('id', '')#接
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT moments_id FROM moments_moments WHERE moments_user_id=%d AND moments_text LIKE '%%%s%%'"%(int(id),search))
+            result=cursor.fetchall()
+        return JsonResponse(result[0][0])
