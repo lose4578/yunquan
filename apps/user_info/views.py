@@ -40,8 +40,10 @@ class VerifyView(View):
                     user.is_active = True
                     user.save()
                     result = {'result': 'Successful!'}
+
             else:
                 result = {'result': 'Activecode is wrong'}
+
         else:
             result = {'result': 'Message is wrong'}
         return JsonResponse(result)
@@ -70,6 +72,8 @@ class RegisterView(View):
             else:
                 UserMessage.objects.create(**dict1)
                 send_verify_code(type1, email_or_mobile, type1 + 'register')
+                result = {'result': '已向{}发送注册验证码，请注意查收'.format(email_or_mobile)}
+
         else:
             result = {'result': '信息错误！'}
 
@@ -110,8 +114,8 @@ class LoginView(View):
 # 忘记密码
 class SendCodeView(View):
     def post(self, request):
-        forget_form = ForgetForm(request.POST)
-        if forget_form.is_valid():
+        send_code_form = SendCodeForm(request.POST)
+        if send_code_form.is_valid():
             dict1 = dict(request.POST)
             for i in dict1.keys():
                 dict1[i] = dict1[i][0]
