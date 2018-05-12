@@ -18,10 +18,9 @@ class Collect(models.Model):
     collect_type = models.IntegerField(choices=((1, "新闻"), (2, "说说")), default=1, verbose_name='收藏类型')
     add_time = models.DateTimeField(default=datetime.now, verbose_name='添加时间')
 
-
     class Meta:
         verbose_name = u'收藏'
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return str(self.collect_content_id)
+        return str([self.collect_content_id, self.collect_type])

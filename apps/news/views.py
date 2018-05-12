@@ -2,6 +2,9 @@ from django.shortcuts import render
 
 from datetime import datetime
 from aip import AipNlp
+from django.http import JsonResponse
+from django.views.generic.base import View
+
 from news.models import News
 # Create your views here.
 
@@ -28,10 +31,38 @@ class BaiDuSDK():
             categories['lv2'] = False
 
 
+class ShowNewsView(View):
+    def post(self, request):
+        news_num = request.POST.get('news_num')
+        news = News.objects.order_by('news_id')[10*(news_num-1):10 * news_num]
+        news_names = []
+        news_users = []
+        news_texts = []
+        news_imgs = []
+        for i in news:
+            news_name = news[i].news_name
+            news_user = news[i].news_user
+            news_text = news[i].news_text
+            news_img = news[i].news_img
+            news_names += news_name
+            news_users += news_user
+            news_texts += news_text
+            news_imgs += news_img
+        return JsonResponse({
+            'news_names': news_names,
+            'news_users': news_users,
+            'news_texts': news_texts,
+            'news_imgs': news_imgs
+        })
 
 
 
 
-
-
+class NewsSearch(View):
+    def post(self,request):
+        search = request.POST.get('search', '')#接
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT news_id FROM news_news WHERE news_name OR news_text LIKE '%%%s%%'"%search)
+            result=cursor.fetchall()
+        return JsonResponse(result[0][0])
 
