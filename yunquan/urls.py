@@ -28,6 +28,8 @@ urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^collect/add/', AddCollect),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+    url('^user/', include('user_info.urls', namespace='user')),
+
     # url(r'^news/', NewsSearch.as_view(), name='NewsSearch'),
     url(r'^moments/', MomentsSearch.as_view(), name='MomentsSearch'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
