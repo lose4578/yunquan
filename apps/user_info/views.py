@@ -6,7 +6,7 @@ from django.views.generic import View
 from django.contrib.auth.hashers import make_password
 
 from .models import UserMessage, VerifyRecord
-from .forms import ModifyPwdForm, RegisterForm, LoginForm, ForgetForm, VerifyForm, ModifyMessageForm
+from .forms import ModifyPwdForm, RegisterForm, LoginForm, SendCodeForm, VerifyForm, ModifyMessageForm
 from utils.verifycode_send import send_verify_code
 
 
