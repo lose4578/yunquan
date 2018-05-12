@@ -20,7 +20,7 @@ from collect.views import AddCollect, ajax_dict
 import xadmin
 from django.conf import settings
 from django.conf.urls.static import static
-from news.views import NewsSearch
+# from news.views import NewsSearch
 from moments.views import MomentsSearch
 
 urlpatterns = [
@@ -28,7 +28,7 @@ urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^collect/add/', AddCollect),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
-    url(r'^news/', NewsSearch.as_view(), name='NewsSearch'),
+    # url(r'^news/', NewsSearch.as_view(), name='NewsSearch'),
     url(r'^moments/', MomentsSearch.as_view(), name='MomentsSearch'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 

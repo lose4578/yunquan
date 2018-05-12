@@ -1,6 +1,5 @@
 from django.shortcuts import render
 
-from datetime import datetime
 from aip import AipNlp
 from django.http import JsonResponse
 from django.views.generic.base import View
@@ -58,11 +57,11 @@ class ShowNewsView(View):
 
 
 
-class NewsSearch(View):
-    def post(self,request):
-        search = request.POST.get('search', '')#接
-        with connection.cursor() as cursor:
-            cursor.execute("SELECT news_id FROM news_news WHERE news_name OR news_text LIKE '%%%s%%'"%search)
-            result=cursor.fetchall()
-        return JsonResponse(result[0][0])
+# class NewsSearch(View):
+#     def post(self,request):
+#         search = request.POST.get('search', '')#接
+#         with connection.cursor() as cursor:
+#             cursor.execute("SELECT news_id FROM news_news WHERE news_name OR news_text LIKE '%%%s%%'"%search)
+#             result=cursor.fetchall()
+#         return JsonResponse(result[0][0])
 
