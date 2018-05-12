@@ -88,25 +88,25 @@ WSGI_APPLICATION = 'yunquan.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'lose4578',
-#         'USER': "lose4578",
-#         'PASSWORD': "lose4578",
-#         'HOST': "db4free.net",
-#         'PORT': 3307
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'testdjango',
-        'USER': "root",
-        'PASSWORD': "19981012",
-        'HOST': "127.0.0.1",
+        'NAME': 'lose4578',
+        'USER': "lose4578",
+        'PASSWORD': "lose4578",
+        'HOST': "db4free.net",
+        'PORT': 3307
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'testdjango',
+#         'USER': "root",
+#         'PASSWORD': "19981012",
+#         'HOST': "127.0.0.1",
+#     }
+# }
 
 
 # Password validation
