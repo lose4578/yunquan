@@ -24,7 +24,7 @@ class LoginForm(forms.Form):
 
 
 # 忘记密码
-class ForgetForm(forms.Form):
+class SendCodeForm(forms.Form):
     email = forms.EmailField(required=False)
     user_mobile = forms.CharField(required=False)
 

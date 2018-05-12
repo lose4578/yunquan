@@ -27,7 +27,7 @@ SECRET_KEY = '6%d$46jxiy96%j8#b6js&a!^v^+ji+5gvfk^5wygu5%#mrewy1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['192.168.1.175']
 
 AUTH_USER_MODEL = "user_info.UserMessage"
 

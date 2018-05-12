@@ -108,7 +108,7 @@ class LoginView(View):
 
 
 # 忘记密码
-class ForgetPwdView(View):
+class SendCodeView(View):
     def post(self, request):
         forget_form = ForgetForm(request.POST)
         if forget_form.is_valid():
@@ -200,6 +200,8 @@ class PersonalMessageView(View):
             dict1['desc'] = user.user_desc
             result = dict1
             return JsonResponse(result)
+
+
 # {
 #   "username": "111",
 #   "email": "1625449339@qq.com",
@@ -257,3 +259,18 @@ class LogoutView(View):
         logout(request)
         result = {'result': 'successful'}
         return JsonResponse(result)
+
+
+# 绑定
+class BindingView(View):
+    def post(self, request):
+        if request.user.is_authenticated():
+            user = request.user
+            mobile = user.user_mobile
+            email = user.email
+            result = {'mobile': mobile, 'email': email}
+            return JsonResponse(result)
+
+
+
+
